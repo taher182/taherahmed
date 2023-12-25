@@ -22,13 +22,13 @@ class Projects extends React.Component{
                     <div className='col-lg-4 m-1 border rounded p-3 shadow'>
                         <a href={twist}><img src={twist} className="img-fluid shadow rounded" /></a>
 
-                        <a href="#" ><h4 className='mt-2'>Twist Contact Manager (Full Stack)</h4></a>
+                        <a href="https://contact-app-kappa-vert.vercel.app/" ><h4 className='mt-2'>Twist Contact Manager (Full Stack)</h4></a>
                         
                     </div>
                     <div className='col-lg-4 m-1 border rounded p-3 shadow'>
                         <a href={mark}><img src={mark} className="img-fluid shadow rounded" /></a>
 
-                        <a href="#"><h4 className='mt-2' >Markdown Previewer</h4></a>
+                        <a href="https://taher-1822001.github.io/Markdown-Previewer/"><h4 className='mt-2' >Markdown Previewer</h4></a>
                      
                     </div>
                    
