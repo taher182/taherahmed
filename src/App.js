@@ -11,8 +11,7 @@ import Projects from './components/Projects';
 import Contact from './components/contact';
 function App() {
   return (
-    <>
-    {/* // <div className="App"> */}
+    <div className="App">
    <Home />
       <About />
       <SkillsAndTools />
@@ -22,8 +21,7 @@ function App() {
       <Projects />
       <Achievements />
       <Contact />
-    {/* </div> */}
-    </>
+    </div>
   );
 }
 

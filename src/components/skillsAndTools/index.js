@@ -21,7 +21,7 @@ class SkillsAndTools extends React.Component {
     const { showContainer } = this.state;
     return (
       <div className={`container d-flex align-items-center justify-content-center mt-5 ${showContainer ? 'fade-in' : ''}`} id="skills">
-        <div className="row align-items-center justify-content-center">
+        <div className="row align-items-center justify-content-center m-1">
           <h2>Skills And Tools</h2>
           <div className="col-lg-6 border shadow p-4 rounded m-1">
             <h2>Skills</h2>
@@ -34,7 +34,7 @@ class SkillsAndTools extends React.Component {
                   />
                   <span>HTML</span>
                 </div>
-                <div className="col rounded border shadow d-flex align-items-center m-2 p-2">
+                <div className="col-6 rounded border shadow d-flex align-items-center m-2 p-2">
                   <img
                     src="https://skillicons.dev/icons?i=css&theme=dark&"
                     alt="html"

@@ -19,7 +19,7 @@ class Certificates extends React.Component{
             <>
             <div className="container  mt-5 justify-content-center align-items-center" id="certificate">
 
-                <div className='row justify-content-center'>
+                <div className='row m-1 justify-content-center'>
                     <div className='col'>
                         <h2>Certifications</h2>
                     </div>

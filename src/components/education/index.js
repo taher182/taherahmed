@@ -23,7 +23,7 @@ class Education extends React.Component {
             <>
                 <div className={`container mt-5 ${showContainer ? 'animate__animated animate__fadeIn' : ''}`} id="education">
 
-                    <div className='row justify-content-center'>
+                    <div className='row justify-content-center '>
                         <div className='col-12 text-center'>
                             <h2>Education</h2>
                         </div>

@@ -22,18 +22,18 @@ class About extends React.Component {
         const { showContainer } = this.state;
         return (
             <div className={`container d-flex align-items-center justify-content-center animate__animated ${showContainer ? 'animate__fadeIn' : ''}`} id="about">
-                <div className='row'>
+                <div className='row m-1'>
                     <div className='col'>
                         <h2>About Me</h2>
                     </div>
                     <div className='w-100'></div>
-                    <div className='col-lg-3 m-3'>
+                    <div className='col-lg-3 m-3 col-xs-12'>
                         <center><img src={profile} alt="profile" style={{ width: "200px", height: "200px", borderRadius: "50%" }} /></center>
                     </div>
 
                     <div className='col-lg-7  p-3 border shadow rounded' style={{ textAlign: "left" }}>
                         <div className='row'>
-                            <div className='col-lg-7'>
+                            <div className='col-lg-7 col-xs-12'>
                                 <p>
                                     Hi there! 👋 I'm Taher Ahmed, a passionate and detail-oriented Certified Full Stack Developer with a keen eye for crafting robust and scalable web applications. <br />
                                     With a solid foundation in both frontend and backend development, I've honed my skills in a variety of technologies, frameworks, and programming languages.

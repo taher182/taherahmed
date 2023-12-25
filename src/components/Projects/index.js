@@ -14,10 +14,11 @@ class Projects extends React.Component{
         return(
             <>
             <div className="container" id='projects'>
-                <div className='row justify-content-center'>
-                    <div className='row mt-5'>
+                <div className='row m-1 justify-content-center'>
+                    <div className='col mt-5'>
                         <h2>Recent Projects</h2>
                     </div>
+                    <div className='w-100'></div>
                     <div className='col-lg-4 m-1 border rounded p-3 shadow'>
                         <a href={twist}><img src={twist} className="img-fluid shadow rounded" /></a>
 
